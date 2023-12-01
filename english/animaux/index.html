@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Test menu</title>
+  <title>Menu test</title>
   <script defer src="https://unpkg.com/alpinejs"></script>
   <style>
     .menu {
@@ -35,14 +35,14 @@
   <!-- https://emmet.io/ -->
   <!-- header>h1{Test de menu} -->
   <header>
-    <h1>Test de menu</h1>
+    <h1>Test of the menu</h1>
     <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">menu</button>
     <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
       <ul>
         <li><img src="../animaux/public/icones/material-symbols-light-menu-book-outline-rounded.svg" alt="menu"><a
-            href="cats/index.html">Accueil chat</a></li>
+            href="cats/index.html">Cat page</a></li>
         <li><img src="../animaux/public/icones/material-symbols-light-menu-book-outline-rounded.svg" alt="menu"><a
-            href="dogs/index.html">Accueil chien</a></li>
+            href="dogs/index.html">Dog page</a></li>
       </ul>
     </nav>
   </header>
