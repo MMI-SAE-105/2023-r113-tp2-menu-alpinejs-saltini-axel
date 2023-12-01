@@ -1,3 +1,3 @@
 - nom : Saltini
 - prénom : Axel
-- URL publique du site :
+- URL publique du site : https://tp2-menu-alpinejs-saltini-axel.netlify.app
