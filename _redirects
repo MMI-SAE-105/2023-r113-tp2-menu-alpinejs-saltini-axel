@@ -1,2 +1,5 @@
 / /fr/animaux/ 302! Language=fr
 / /en/animaux/ 302! Language=en
+<a href="../fr/animaux/index.html" onclick="document.cookie = 
+`nf_lang=fr; path=/ ; SameSite=Strict`
+">
